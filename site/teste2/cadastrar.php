@@ -8,12 +8,18 @@
 </head>
 <body>
     <div id="corp-form">
-     <h1>Entrar</h1>
+     <h1>Cadastro</h1>
      <form method="POST" action="processa. php">
+      <input type="text" placeholder="Nome Completo">
+      <input type="text" placeholder="Telefone">
+
       <input type="email" placeholder="Usuário">
+
       <input type="password" placeholder="Senha">
+      <input type="password" placeholder="Confirmar Senha">
+
       <input type="submit" value="ACESSAR">
-      <a href="cadastrar.php">Ainda não é inscrito?<strong>Cadastre-se!</strong></a>
+      
     </form>
  </div>
     
